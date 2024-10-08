@@ -1,0 +1,71 @@
+﻿<Window x:Class="практическая_работа__5_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:практическая_работа__5_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Cursor="">
+    <Grid>
+        <TabControl Name="TaskCategoriesTabControl" Background="#F0F0F0" BorderBrush="#007ACC">
+            <TabItem Header="Личные задачи" Name="PersonalTasksTab" Foreground="#003366">
+                <Grid Background="#F0F0F0">
+                    <ComboBox Name="PersonalPriorityComboBox" SelectionChanged="PersonalPriorityComboBox_SelectionChanged" 
+                        Background="#F0F0F6" Foreground="#003366" BorderBrush="#007ACC" HorizontalAlignment="Stretch" VerticalAlignment="Top">
+                        <ComboBoxItem Content="Высокий" Background="#F0F0F0" Foreground="#003366" />
+                        <ComboBoxItem Content="Средний" Background="#F0F0F0" Foreground="#003366" />
+                        <ComboBoxItem Content="Низкий" Background="#F0F0F0" Foreground="#003366" />
+                    </ComboBox>
+                    <ListBox Name="PersonalTasksListBox" DisplayMemberPath="Title"
+                        Margin="10,50,10,58" Background="#F8F8F0" Foreground="Black" BorderBrush="#087ACC">                        
+                    </ListBox>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10">
+                        <Button Content="Добавить задачу" Width="120" Margin="5" Background="#007ACC" Foreground="#FFFFFF" BorderBrush="#007ACC" Cursor="Hand" Click="AddTaskButton_Click"/>
+                        <Button Content="Удалить задачу" Width="120" Margin="5" Background="#007ACC" Foreground="#FFFFFF" BorderBrush="#007ACC" Cursor="Hand" Click="RemoveTaskButton_Click"/>
+                        <Label Name="PersonalTaskCountLabel" Content="Задач: 0" 
+                               HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,10,0"/>
+                    </StackPanel>
+                </Grid>
+                </TabItem>
+            <TabItem Header="Рабочие задачи" Name="WorkTasksTab" Foreground="#003366">
+                <Grid Background="#F0F0F0">
+                    <ComboBox Name="WorktasksComboBox" SelectionChanged="WorktasksComboBox_SelectionChanged" 
+                        Background="#F0F0F6" Foreground="#003366" BorderBrush="#007ACC" HorizontalAlignment="Stretch" VerticalAlignment="Top">
+                        <ComboBoxItem Content="Высокий" Background="#F0F0F0" Foreground="#003366" />
+                        <ComboBoxItem Content="Средний" Background="#F0F0F0" Foreground="#003366" />
+                        <ComboBoxItem Content="Низкий" Background="#F0F0F0" Foreground="#003366" />
+                    </ComboBox>
+                    <ListBox Name="WorktasksListBox" DisplayMemberPath="Title"
+                        Margin="10,50,10,58" Background="#F8F8F0" Foreground="Black" BorderBrush="#087ACC">
+                    </ListBox>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10">
+                        <Button Content="Добавить задачу" Width="120" Margin="5" Background="#007ACC" Foreground="#FFFFFF" BorderBrush="#007ACC" Cursor="Hand" Click="AddTaskButton_Click"/>
+                        <Button Content="Удалить задачу" Width="120" Margin="5" Background="#007ACC" Foreground="#FFFFFF" BorderBrush="#007ACC" Cursor="Hand" Click="RemoveTaskButton_Click"/>
+                        <Label Name="WorktasksCountLabel" Content="Задач: 0" 
+                               HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,10,0"/>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Дополнительные задачи" Name="AdditionalTasksTab" Foreground="#003366">
+                <Grid Background="#F0F0F0">
+                    <ComboBox Name="AdditionaltasksComboBox" SelectionChanged="AdditionaltasksComboBox_SelectionChanged"
+                        Background="#F0F0F6" Foreground="#003366" BorderBrush="#007ACC" HorizontalAlignment="Stretch" VerticalAlignment="Top">
+                        <ComboBoxItem Content="Высокий" Background="#F0F0F0" Foreground="#003366" />
+                        <ComboBoxItem Content="Средний" Background="#F0F0F0" Foreground="#003366" />
+                        <ComboBoxItem Content="Низкий" Background="#F0F0F0" Foreground="#003366" />
+                    </ComboBox>
+                    <ListBox Name="AdditionaltasksListBox" DisplayMemberPath="Title"
+                        Margin="10,50,10,58" Background="#F8F8F0" Foreground="Black" BorderBrush="#087ACC">
+                    </ListBox>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10">
+                        <Button Content="Добавить задачу" Width="120" Margin="5" Background="#007ACC" Foreground="#FFFFFF" BorderBrush="#007ACC" Cursor="Hand" Click="AddTaskButton_Click"/>
+                        <Button Content="Удалить задачу" Width="120" Margin="5" Background="#007ACC" Foreground="#FFFFFF" BorderBrush="#007ACC" Cursor="Hand" Click="RemoveTaskButton_Click"/>
+                        <Label Name="AdditionaltasksCountLabel" Content="Задач: 0" 
+                               HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,10,0"/>
+                    </StackPanel>
+                </Grid>
+            </TabItem>               
+        </TabControl>
+
+    </Grid>
+</Window>

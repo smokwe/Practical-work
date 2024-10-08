@@ -1,0 +1,30 @@
+﻿<Window x:Class="практическая_работа__5_WPF.AddTaskWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:практическая_работа__5_WPF"
+        mc:Ignorable="d"
+        Title="AddTaskWindow" Height="450" Width="800">
+    <Grid>
+        
+        <StackPanel>
+            <TextBlock Text="Название задачи:" Margin="0,0,0,5"/>
+            <TextBox x:Name="TaskTitleTextBox" Margin="0,0,0,10" Background="#F0F0F0" />
+            <TextBlock Text="Категория:" Margin="0,0,0,5"/>
+            <ComboBox x:Name="TaskCategoryComboBox" Margin="0,0,0,10" Background="#F0F0F0">
+                <ComboBoxItem Content="Личные" />
+                <ComboBoxItem Content="Рабочие" />
+                <ComboBoxItem Content="Дополнительные" />
+            </ComboBox>
+            <TextBlock Text="Приоритет:" Margin="0,0,0,5"/>
+            <ComboBox x:Name="NewTaskPriorityComboBox" Margin="0,0,0,10" Background="#F0F0F0">
+                <ComboBoxItem Content="Высокий" />
+                <ComboBoxItem Content="Средний" />
+                <ComboBoxItem Content="Низкий" />
+            </ComboBox>
+            <Button x:Name="SaveButton" Content="Сохранить" Click="SaveTaskButton_Click" Background="#007ACC" Foreground="#FFFFFF" Width="100" Height="30" HorizontalAlignment="Right"/>
+        </StackPanel>
+      
+    </Grid>
+</Window>
