@@ -1,0 +1,21 @@
+C:\Users\Ирина\Desktop\калькулятор\практическая работа №6 WPF\практическая работа №6 WPF\obj\Debug\практическая работа №6 WPF.csproj.AssemblyReference.cache
+C:\Users\Ирина\Desktop\калькулятор\практическая работа №6 WPF\практическая работа №6 WPF\obj\Debug\FormPage.g.cs
+C:\Users\Ирина\Desktop\калькулятор\практическая работа №6 WPF\практическая работа №6 WPF\obj\Debug\MainPage.g.cs
+C:\Users\Ирина\Desktop\калькулятор\практическая работа №6 WPF\практическая работа №6 WPF\obj\Debug\MainWindow.g.cs
+C:\Users\Ирина\Desktop\калькулятор\практическая работа №6 WPF\практическая работа №6 WPF\obj\Debug\SummaryPage.g.cs
+C:\Users\Ирина\Desktop\калькулятор\практическая работа №6 WPF\практическая работа №6 WPF\obj\Debug\App.g.cs
+C:\Users\Ирина\Desktop\калькулятор\практическая работа №6 WPF\практическая работа №6 WPF\obj\Debug\практическая работа №6 WPF_MarkupCompile.cache
+C:\Users\Ирина\Desktop\калькулятор\практическая работа №6 WPF\практическая работа №6 WPF\obj\Debug\практическая работа №6 WPF_MarkupCompile.lref
+C:\Users\Ирина\Desktop\калькулятор\практическая работа №6 WPF\практическая работа №6 WPF\bin\Debug\практическая работа №6 WPF.exe.config
+C:\Users\Ирина\Desktop\калькулятор\практическая работа №6 WPF\практическая работа №6 WPF\bin\Debug\практическая работа №6 WPF.exe
+C:\Users\Ирина\Desktop\калькулятор\практическая работа №6 WPF\практическая работа №6 WPF\bin\Debug\практическая работа №6 WPF.pdb
+C:\Users\Ирина\Desktop\калькулятор\практическая работа №6 WPF\практическая работа №6 WPF\obj\Debug\FormPage.baml
+C:\Users\Ирина\Desktop\калькулятор\практическая работа №6 WPF\практическая работа №6 WPF\obj\Debug\MainPage.baml
+C:\Users\Ирина\Desktop\калькулятор\практическая работа №6 WPF\практическая работа №6 WPF\obj\Debug\MainWindow.baml
+C:\Users\Ирина\Desktop\калькулятор\практическая работа №6 WPF\практическая работа №6 WPF\obj\Debug\SummaryPage.baml
+C:\Users\Ирина\Desktop\калькулятор\практическая работа №6 WPF\практическая работа №6 WPF\obj\Debug\практическая работа №6 WPF.g.resources
+C:\Users\Ирина\Desktop\калькулятор\практическая работа №6 WPF\практическая работа №6 WPF\obj\Debug\практическая_работа__6_WPF.Properties.Resources.resources
+C:\Users\Ирина\Desktop\калькулятор\практическая работа №6 WPF\практическая работа №6 WPF\obj\Debug\практическая работа №6 WPF.csproj.GenerateResource.cache
+C:\Users\Ирина\Desktop\калькулятор\практическая работа №6 WPF\практическая работа №6 WPF\obj\Debug\практическая работа №6 WPF.csproj.CoreCompileInputs.cache
+C:\Users\Ирина\Desktop\калькулятор\практическая работа №6 WPF\практическая работа №6 WPF\obj\Debug\практическая работа №6 WPF.exe
+C:\Users\Ирина\Desktop\калькулятор\практическая работа №6 WPF\практическая работа №6 WPF\obj\Debug\практическая работа №6 WPF.pdb
